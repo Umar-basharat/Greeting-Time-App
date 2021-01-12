@@ -43,4 +43,4 @@ jobs:
       - name: install surge 
         run: npm install -g surge
       - name: depoly app 
-        run: surge ./build timeapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build timeapp.surge.sh
