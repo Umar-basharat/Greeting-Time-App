@@ -10,12 +10,12 @@ if (ctime>=6 && ctime<=12) {
   cssstyle.color="green";
 
 }
-else if (ctime>12 &&  ctime<=16)
+else if (ctime>=13 &&  ctime<=16)
 {
   ctime="Good After Noon";
   cssstyle.color="yellow";
 }
-else if (ctime>16 && ctime<=19){
+else if (ctime>=17 && ctime<=19){
   ctime="Good Evening";
   cssstyle.color="orange";
 
