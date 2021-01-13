@@ -6,6 +6,7 @@ body{
 }
 .main{
     justify-content: center;
+    flex-direction: column;
     display: flex;
     align-items: center;
     height: 100vh;
